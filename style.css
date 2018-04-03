@@ -24,11 +24,11 @@ button {
 }
 
 .resumeButton {
-  background-image: url(images-logos/download-symbol.png);
+  background-image: url(images/download-symbol.png);
 }
 
 .contactButton {
-  background-image: url(images-logos/info.png);
+  background-image: url(images/info.png);
   margin-left: 15px; 
 }
 
@@ -71,14 +71,14 @@ p {
 }
 
 .box2 {
-  background-image: url(images-logos/headset.png);
+  background-image: url(images/headset.png);
   background-color: #52a0d0;
   grid-column: 3 / 4;
   grid-row: 1;
 }
 
 .box3 {
-  background-image: url(images-logos/Devito.jpg);
+  background-image: url(images/Devito.jpg);
   background-size: cover;
   background-position: 0, 25;
   grid-column: 4 / 6;
@@ -88,32 +88,32 @@ p {
 
 .box4 {
   background-color: #759a5d;
-  background-image: url(images-logos/drink.png);
+  background-image: url(images/drink.png);
 }
 
 .box5 {
   background-color: #9bc146;
-  background-image: url(images-logos/case.png);
+  background-image: url(images/case.png);
 }
 
 .box6 {
   background-color: #df1313;
-  background-image: url(images-logos/money-bag.png)
+  background-image: url(images/money-bag.png)
 }
 
 .box7 {
   background-color: #b42323;
-  background-image: url(images-logos/monitor.png)
+  background-image: url(images/monitor.png)
 }
 
 .box8 {
   background-color: #52a0d0;
-  background-image: url(images-logos/video-camera.png)
+  background-image: url(images/video-camera.png)
 }
 
 .box9 {
   background-color: #759a5d;
-  background-image: url(images-logos/plane.png)
+  background-image: url(images/plane.png)
 }
 
 @media screen and (max-width: 900px) {
