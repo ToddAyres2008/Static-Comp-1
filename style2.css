@@ -1,0 +1,236 @@
+body {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, 1fr);
+font-family: arial;
+color: #FFFFFF;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #FFFFFF;
+  background-image: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 7px 20px;
+  background-color: #df1313;
+  color: #FFFFFF;
+}
+
+.resumeButton {
+  background-image: url(images-logos/download-symbol.png);
+}
+
+.contactButton {
+  background-image: url(images-logos/info.png);
+  margin-left: 15px; 
+}
+
+.left-image {
+  margin-top: 60%;
+  margin-left: 10%;
+  height: 50px;
+  width: 50px;
+}
+
+.right-image {
+  margin-top: 60%;
+  margin-left: 60%;
+  height: 50px;
+  width: 50px;
+}
+
+p {
+  position: relative;
+  left: 37%;
+  top: 62%;
+  font-size: 12px;
+ /* margin-left: 100px;
+  margin-top: 160px;
+  font-size: 12px;*/
+}
+
+.box {
+  height: 100%;
+  background-image: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box1 {
+  background-color: #df1313;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 40px 20px 0 20px;
+}
+
+.box2 {
+  background-image: url(images-logos/headset.png);
+  background-color: #52a0d0;
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.box3 {
+  background-image: url(images-logos/Devito.jpg);
+  background-size: cover;
+  background-position: 0, 25;
+  grid-column: 4 / 6;
+  grid-row: 1 / 4;
+  height: 100vh;
+}
+
+.box4 {
+  background-color: #759a5d;
+  background-image: url(images-logos/drink.png);
+}
+
+.box5 {
+  background-color: #9bc146;
+  background-image: url(images-logos/case.png);
+}
+
+.box6 {
+  background-color: #df1313;
+  background-image: url(images-logos/money-bag.png)
+}
+
+.box7 {
+  background-color: #b42323;
+  background-image: url(images-logos/monitor.png)
+}
+
+.box8 {
+  background-color: #52a0d0;
+  background-image: url(images-logos/video-camera.png)
+}
+
+.box9 {
+  background-color: #759a5d;
+  background-image: url(images-logos/plane.png)
+}
+
+@media screen and (max-width: 900px) {
+
+  body {
+
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-rows: repeat(5, 1fr);
+    font-family: arial;
+    color: #FFFFFF;
+  } 
+
+  .box1  {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .box3 {
+    display: none;
+  }
+
+  .box2 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    width: 33.3333vw;
+  }
+
+  .box4 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    width: 33.3333vw;
+  }
+
+  .box5 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    width: 33.3333vw;
+  }
+
+  .box6 {
+    grid-column: 3 / 4;
+    grid-row: 2;
+    width: 33.33333vw;
+  }
+
+  .box7 {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    width: 33.3333vw;
+  }
+
+  .box8 {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    width: 33.3333vw;
+  }
+}
+
+@media screen and (max-width: 657px) {
+
+  body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    font-family: arial;
+    color: #FFFFFF;
+  } 
+
+  .box1  {
+    grid-column: 1 / 1;
+    grid-row: 1;
+    padding: 20px 20px 20px 15px; 
+  }
+
+  .box3 {
+    display: none;
+  }
+
+  .box2 {
+    grid-column: 1/ 1;
+    grid-row: 2;
+    width: 100vw;
+  }
+
+  .box4 {
+    grid-column: 1 / 1;
+    grid-row: 3;
+    width: 100vw;
+  }
+
+  .box5 {
+    grid-column: 1 / 1;
+    grid-row: 4;
+    width: 100vw;
+  }
+
+  .box6 {
+    grid-column: 1 / 1;
+    grid-row: 5;
+    width: 100vw;
+  }
+
+  .box7 {
+    grid-column: 1 / 1;
+    grid-row: 6;
+    width: 100vw;
+  }
+
+  .box8 {
+    grid-column: 1 / 1;
+    grid-row: 7;
+    width: 100vw;
+  }
+}
+
+
+
+
+
